@@ -1,6 +1,6 @@
 # Katalin Pazmany — Personal Portfolio
 
-Live site: [pkati2915.github.io/website](https://pkati2915.github.io)
+Live site: [pkati2915.github.io](https://pkati2915.github.io)
 
 Personal portfolio for Katalin Pazmany — junior data scientist with an MSc in Data Science & AI from the University of Liverpool and a background in finance and accounting.
 
