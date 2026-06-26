@@ -1,12 +1,8 @@
 # Katalin Pazmany — Personal Portfolio
 
-<<<<<<< HEAD
-Live site: [pkati2915.github.io/website](https://pkati2915.github.io)
-=======
 Live site: [pkati2915.github.io](https://pkati2915.github.io)
->>>>>>> b695935f800e7eeb6a659023558965845548dd32
 
-Personal portfolio for Katalin Pazmany — junior data scientist with an MSc in Data Science & AI from the University of Liverpool and a background in finance and accounting.
+Personal portfolio for Katalin Pazmany — data scientist with an MSc in Data Science & AI from the University of Liverpool and a background in finance and accounting.
 
 ---
 
@@ -17,30 +13,34 @@ Single-page portfolio built from scratch with HTML and CSS — no frameworks, no
 ## Structure
 
 ```
-index.html          # Full site — all HTML, CSS, and JS in one file
-favicon.png         # Browser tab icon
-katalin.png         # Hero portrait
-finance_project.png # DCF Valuation project thumbnail
-lung_cnn.png        # Lung CNN project thumbnail
-car.png             # IBM AI Race project thumbnail
+index.html             # Full site — all HTML, CSS, and JS in one file
+favicon.png            # Browser tab icon
+profile_picture.png    # Hero portrait
+esg_dashboard.png      # ESG Climate Portfolio thumbnail
+DCF_dashboard.png      # DCF Valuation project thumbnail
+lung_cnn.png           # Lung CNN project thumbnail
+airbnb_dashboard.png   # Airbnb dashboard thumbnail
+IBM_car.png            # IBM AI Race project thumbnail
 ```
 
 ## Sections
 
 - **Hero** — introduction and availability status
 - **About** — background, education, and interests
-- **Projects** — DCF Valuation, Patient Diagnosis ML, Lung CNN, IBM AI Race
+- **Projects** — ESG Tail Risk Analysis, DCF Valuation, Patient Diagnosis ML, Lung CNN, Airbnb Analytics, IBM AI Race
 - **Skills** — languages, ML tools, visualisation, databases, cloud
-- **Experience** — education timeline and self-directed learning
+- **Education** — timeline and self-directed learning
 - **Contact** — email, LinkedIn, GitHub, and contact form
 
 ## Projects featured
 
 | Project | Stack | Repo |
 |---|---|---|
+| ESG Tail Risk Analysis | Python, Yahoo Finance, Plotly, CAPM | [ESG-Tail-Risk-Analysis](https://github.com/pkati2915/ESG-Tail-Risk-Analysis) |
 | DCF Valuation | Python, Streamlit, Monte Carlo | [dcf-valuation](https://github.com/pkati2915/dcf-valuation) |
 | Patient Diagnosis ML | scikit-learn, SMOTE, Gradient Boosting | [Patient-diagnosis-ml](https://github.com/pkati2915/Patient-diagnosis-ml) |
 | Lung Disease CNN | PyTorch, CNN, Medical Imaging | [Lung-cnn](https://github.com/pkati2915/Lung-cnn) |
+| Airbnb Europe Analytics | Python, SQL, Power BI | [Airbnb-europe-analysis](https://github.com/pkati2915/Airbnb-europe-analysis) |
 | IBM AI Race | C++, TORCS, Autonomous Agents | [ibm_ai_race_competition](https://github.com/pkati2915/ibm_ai_race_competition) |
 
 ## Deployment

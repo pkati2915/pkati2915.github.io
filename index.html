@@ -355,10 +355,10 @@ h2 em{font-style:italic;color:var(--accent-2);font-weight:400}
 .folder-link svg{transition:transform .25s}
 .folder-link:hover svg{transform:translate(2px,-2px)}
 .folder-img{
-  width:200px;border-radius:13px;border:1px solid var(--border);
-  object-fit:cover;height:140px;filter:saturate(1.05) contrast(1.02);flex-shrink:0;
+  width:340px;border-radius:13px;border:1px solid var(--border);
+  object-fit:cover;height:220px;filter:saturate(1.05) contrast(1.02);flex-shrink:0;
 }
-@media(max-width:800px){.folder-img{width:100%;height:155px}}
+@media(max-width:800px){.folder-img{width:100%;height:200px}}
 .metrics-row{
   display:grid;grid-template-columns:repeat(3,1fr);gap:10px;
   margin-bottom:20px;padding:16px;border-radius:12px;
@@ -700,7 +700,7 @@ footer .row span{font-family:'DM Mono',monospace}
     </div>
     <div class="photo-card reveal">
       <div class="photo-wrap">
-        <img src="katalin.png" alt="Katalin Pazmany — portrait" loading="eager" />
+        <img src="profile_picture.png" alt="Katalin Pazmany — portrait" loading="eager" />
       </div>
     </div>
   </div>
@@ -757,8 +757,30 @@ footer .row span{font-family:'DM Mono',monospace}
     <article class="folder-item tile reveal">
       <div class="spotlight"></div>
       <div class="folder-tab">
+        <span class="folder-tab-dot" style="background:#00d4aa"></span>
+        <span style="color:#00d4aa">Featured · Quantitative Finance · Python</span>
+      </div>
+      <div class="folder-inner">
+        <div>
+          <h3 class="folder-title">ESG Climate Portfolio — Tail Risk Analysis</h3>
+          <p class="folder-desc">Does ESG screening reduce portfolio tail risk? A full quantitative study of 129 S&P 500 constituents across five ESG quintiles (2021–2026). Live data pipeline via Yahoo Finance, CAPM factor model, VaR/CVaR/skewness analysis, and an interactive aurora-theme dashboard — all in a single self-contained HTML file.</p>
+          <div class="metrics-row">
+            <div class="metric"><div class="metric-val">13.8%</div><div class="metric-key">Q1 Ann. Return</div></div>
+            <div class="metric"><div class="metric-val">0.226</div><div class="metric-key">Q1 Skewness</div></div>
+            <div class="metric"><div class="metric-val">0.531</div><div class="metric-key">Q1–Q5 Correlation</div></div>
+          </div>
+          <div class="folder-chips"><span class="chip">Python</span><span class="chip">Yahoo Finance</span><span class="chip">Plotly</span><span class="chip">CAPM</span><span class="chip">VaR / CVaR</span><span class="chip">Risk Analytics</span></div>
+          <a href="https://github.com/pkati2915/ESG-Tail-Risk-Analysis" target="_blank" rel="noopener" class="folder-link">View on GitHub <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+        </div>
+        <img src="esg_dashboard.png" alt="ESG Climate Portfolio Dashboard" class="folder-img" onerror="this.style.display='none'">
+      </div>
+    </article>
+
+    <article class="folder-item tile reveal">
+      <div class="spotlight"></div>
+      <div class="folder-tab">
         <span class="folder-tab-dot" style="background:var(--accent-warm)"></span>
-        <span style="color:var(--accent-warm)">Featured · Finance · Python</span>
+        <span style="color:var(--accent-warm)">Finance · Python</span>
       </div>
       <div class="folder-inner">
         <div>
@@ -767,7 +789,7 @@ footer .row span{font-family:'DM Mono',monospace}
           <div class="folder-chips"><span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">Monte Carlo</span><span class="chip">DCF modelling</span><span class="chip">Financial analysis</span></div>
           <a href="https://github.com/pkati2915/dcf-valuation" target="_blank" rel="noopener" class="folder-link">View on GitHub <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
         </div>
-        <img src="finance_project.png" alt="DCF Valuation" class="folder-img" onerror="this.style.display='none'">
+        <img src="DCF_dashboard.png" alt="DCF Valuation" class="folder-img" onerror="this.style.display='none'">
       </div>
     </article>
 
@@ -822,7 +844,7 @@ footer .row span{font-family:'DM Mono',monospace}
           <div class="folder-chips"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">SQLite</span><span class="chip">Power BI</span><span class="chip">DAX</span></div>
           <a href="https://github.com/pkati2915/Airbnb-europe-analysis" target="_blank" rel="noopener" class="folder-link">View on GitHub <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
         </div>
-        <img src="airbnb.png" alt="Airbnb dashboard" class="folder-img" onerror="this.style.display='none'">
+        <img src="airbnb_dashboard.png" alt="Airbnb dashboard" class="folder-img" onerror="this.style.display='none'">
       </div>
     </article>
 
@@ -839,7 +861,7 @@ footer .row span{font-family:'DM Mono',monospace}
           <div class="folder-chips"><span class="chip">C++</span><span class="chip">Autonomous agents</span><span class="chip">TORCS simulation</span><span class="chip">Team project</span></div>
           <a href="https://github.com/pkati2915/ibm_ai_race_competition" target="_blank" rel="noopener" class="folder-link">View on GitHub <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
         </div>
-        <img src="car.png" alt="IBM AI Race" class="folder-img" onerror="this.style.display='none'">
+        <img src="IBM_car.png" alt="IBM AI Race" class="folder-img" onerror="this.style.display='none'">
       </div>
     </article>
 
